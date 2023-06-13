@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 //create your function here
-export const PrintHello = () => {
+export const Card = () => {
     return (
     <div className="card m-5">
         <img className="card-img-top" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Bob_Dylan_-_Azkena_Rock_Festival_2010_2.jpg/800px-Bob_Dylan_-_Azkena_Rock_Festival_2010_2.jpg" alt="Card image cap" />
@@ -15,4 +15,4 @@ export const PrintHello = () => {
 }
 
 //remember to use ReactDOM.render to include the component into the website
-ReactDOM.render(<PrintHello/>,document.querySelector('#root'));
+ReactDOM.render(<Card/>,document.querySelector('#root'));
